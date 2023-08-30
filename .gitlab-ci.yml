@@ -9,3 +9,4 @@ sync-with-github:
     - git pull github master
     - git status
     - git push https://root:$ACCESS_TOKEN@$CI_SERVER_HOST/$CI_PROJECT_PATH.git HEAD:master
+    #test mirroring
