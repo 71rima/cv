@@ -12,7 +12,7 @@
 <body>
 <div class="container page">
     <div class="row">
-        <div class="col-md-5 col-print-6">
+        <div class="col-md-6 col-print-6">
             <h1><b>{{ name }}</b><br/>{{ title }}</h1>
             <p>
                 <time datetime="{{ buildinfo.date }}" class="text-muted screen">Letztes Update: {{ updated }}</time>
@@ -23,10 +23,10 @@
                     class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
         </div>
-        <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+        <div class="col-4 col-md-1 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
             <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
         </div>
-        <div class="col-md-4 col-print-6">
+        <div class="col-md-6 col-print-6">
             <dl class="row">
                 {{#each facts}}
                 <dt class="col-md-3"><i class="fa fa-{{ icon }}" aria-hidden="true"></i>&nbsp;{{ @key }}</dt>
