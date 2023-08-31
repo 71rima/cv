@@ -1,13 +1,23 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Amir El-Shennawy',
+  title: 'Cloud-Entwickler',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    "Ak. Grad": {
+      icon: "graduation-cap",
+      text: "B. Sc. Informatik",
+    },
+    Geburtstag: {
+      icon: "asterisk",
+      text: "17.06.1996",
+    },
+    Wohnort: {
+      icon: "home",
+      text: "Darmstadt",
+    },
+    "E-Mail": {
+      icon: "envelope",
+      text: '<a href="mailto:amir@el-shennawy.de">amir@el-shennawy.de</a>',
+    },
   },
   skills: [
     ['Comedy', 100],
