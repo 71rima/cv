@@ -35,5 +35,8 @@
     "puppeteer": "^16.1.0",
     "speakingurl": "^14.0.1",
     "watch": "^0.13.0"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
