@@ -23,6 +23,7 @@ The idea behind **The Curriculum Vitae Template** is to provide anyone with a qu
 1. Clone the newly created repo.
 1. Install project dependencies with `npm install`.
 1. Run `npm run deploy` to initialize `gh-pages`. This is a one time action. Further deployments will be initiated by GitHub Actions on every push to `main`.
+1. Run "npm install gh-pages" if "npm run deploy" is having troubles. 
 
 ## Usage
 
