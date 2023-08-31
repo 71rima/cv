@@ -36,6 +36,8 @@ module.exports = {
     ["XP", "+"],
     ["DDD", "+"],
   ],
+
+
   jobs: [
     {
       title: "Bachelorand",
@@ -51,7 +53,7 @@ module.exports = {
       `,
     },
     {
-title: "Cloud-Entwickler",
+title: "Anwendungsentwickler, Cloud-Entwickler",
       company: "AUSY Technologies Germany AG, Frankfurt am Main",
       datespan: "April 2022 bis Juli 2022",
       badges: ["javascript", "html", "css", "kanban", "cleancode", "magnolia"],
@@ -80,5 +82,44 @@ Thousands of performances of my plays have been staged since the end of the 16th
 In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
 `
     }
-  ]
+  ],
+
+education: [
+    {
+      title: "Bachelor of Science Informatik",
+      org: "Hochschule Darmstadt",
+      datespan: "Oktober 2018 - April 2023",
+      contents: `
+      Note: 1,7
+
+      Dissertation: "Automatische Skalierung in Kubernetes unter AWS-EKS – Vergleich von automatischen Skalierungsmethoden", 
+      Bachelormodul Note: 1.2
+`,
+    },
+    {
+      title: "Abitur",
+      org: "Goethe Gymnasium, Bensheim",
+      datespan: "August 2006 - August 2016",
+      contents: ``,
+    },
+  ],
+
+  experience: [
+    {
+      header: "Sprachkenntnisse",
+      contents: `
+* Deutsch (C2)
+* Englisch (B2-C1) 
+`,
+    },
+
+    {
+      header: "Hobbies",
+      contents: `
+*	Kochen 
+*	Reisen
+*	Automatisierung, Smart Home
+      `,
+    },
+  ],
 };
