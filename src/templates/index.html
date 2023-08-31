@@ -96,11 +96,25 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2 class="mb-4">Education</h2>
-        <div>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</div>
-    </div>
+        <h2>Ausbildung</h2>
+        {{#each education}}
+        <div class="card mb-4">
+            <h3>{{ title }}</h3>
+            <h4>{{ org }}</h4>
+            <p class="text-muted">{{ datespan }}</p>
 
-    <h2 class="mb-4">Additional Experience</h2>
+            {{{markdown contents }}}
+
+            <div>
+                {{#each badges }}
+                <span class="badge badge-primary">{{ this }}</span>
+                {{/each}}
+            </div>    
+        </div>
+    </div>
+    {{/each}}
+
+    <h2 class="mb-4">Sonstige Kenntnisse & Hobbies</h2>
 
     {{#each experience}}
     <div class="mb-4">
