@@ -23,14 +23,14 @@
                     class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
         </div>
-        <div class="col-4 col-md-6 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-            <img src="Photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
+        <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+            <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
         </div>
         <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
             <dl class="row">
                 {{#each facts}}
-                <dt class="col-md-3"><i class="fa fa-{{ icon }}" aria-hidden="true"></i>&nbsp;{{ @key }}</dt>
-                <dd class="col-md-9">{{{ text }}}</dd>
+                <dt class="col-md-4"><i class="fa fa-{{ icon }}" aria-hidden="true"></i>&nbsp;{{ @key }}</dt>
+                <dd class="col-md-8">{{{ text }}}</dd>
                 {{/each}}
             </dl>
         </div>
