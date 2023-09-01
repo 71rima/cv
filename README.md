@@ -6,16 +6,13 @@ You are a fantastic developer. Keep your CV on GitHub. Host it on GitHub Pages. 
 
 * Helps you to manage your CV as a web app (HTML + CSS + JS).
 * Automatically generates and publishes HTML and PDF version on every push to `main`.
+* Repository Mirroring with Webhooks and Github Jobs to keep GitLab and GitHub Repositorys consistent.
 
-Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
-
-Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
+Real world example: [http://71rima.github.io/cv](http://71rima.github.io/cv).
 
 ## Motivation
 
-GitHub Pages is probably the best place developer could store their CV. Giving a potential employer a link to your CV stored on GitHub shows your intense desire for automation and stands you out.
-
-The idea behind **The Curriculum Vitae Template** is to provide anyone with a quick solution for creating and managing CVs (both HTML and PDF versions) with the help of GitHub.
+Giving a potential employer a link to your CV stored on GitHub shows your intense desire for automation and stands you out.
 
 ## Installation
 
@@ -39,4 +36,6 @@ The project uses [HandlebarsJS](https://github.com/wycats/handlebars.js/) as a t
 
 The main HTML template is located in [src/templates/index.html](src/templates/index.html). Metadata for the template could be found in [src/metadata/metadata.js](src/metadata/metadata.js).
 
-Don't forget to update [src/assets/favicon.ico](src/assets/favicon.ico). You can generate a new favicon out of your photo with [icoconvert.com](http://icoconvert.com/).
+###
+
+Used Template and Inspired by Demo: [http://sneas.github.io/cv-template](https://github.com/wycats/handlebars.js/).  

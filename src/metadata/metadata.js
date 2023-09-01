@@ -21,20 +21,21 @@ module.exports = {
   },
   techskills: [
     ["Terraform", "++"],
-    ["Kubernetes", "++"],
-    ["Prometheus", "+++"],
+    ["Kubernetes", "+++"],
+    ["Prometheus", "++"],
     ["Grafana", "++"],
     ["AWS", "++"],
     ["Git", "+++"],
     ["CI/DevOps", "++"],
+    ["C++", "+++"],
+    ["CI/DevOps", "++"],
+    ["JavaScript", "+"],
   ],
   methodskills: [
     ["Scrum", "++++"],
     ["Kanban", "+"],
     ["Clean Code", "++"],
     ["TDD", "+"],
-    ["XP", "+"],
-    ["DDD", "+"],
   ],
 
 
@@ -46,8 +47,9 @@ module.exports = {
       badges: ["IaC", "CI/CD", "Kubernetes", "AWS", "Terraform", "Automatisierung", "Monitoring"],
       contents: `
 * Entwurf und Implementierung einer Cloud-Infrastruktur in AWS EKS zur Untersuchung der automatischen Skalierungsmethoden
-* Entwicklung eines SpringBoot RESTful Services, Nutzung von Kubernetes-Skalierung (HPA, VPA, CA) zur automatischen Skalierung in AWS EKS
-* Monitoring mit Prometheus und Grafana. Automatisierte IaaS-Bereitstellung des EKS-Clusters durch Terraform, GitLab CI/CD
+* Entwicklung eines SpringBoot RESTful Services, Nutzung von Kubernetes-Skalierung (HPA, VPA, CA) zu dessen automatischen Skalierung 
+* Monitoring und Visualisierung mit Prometheus und Grafana
+* Automatisierte Bereitstellung des EKS-Clusters durch Terraform, GitLab CI/CD
 * Dynamische Pod- und Node-Skalierung von AWS EC2-Instanzen und deren Ressourcen
 * Anwendung von DevOps-Prinzipien für rasche Bereitstellung, kontinuierliche Optimierung und höhere Qualität
       `,
@@ -56,7 +58,7 @@ module.exports = {
 title: "Anwendungsentwickler, Cloud-Entwickler",
       company: "AUSY Technologies Germany AG, Frankfurt am Main",
       datespan: "April 2022 bis Juli 2022",
-      badges: ["javascript", "html", "css", "kanban", "cleancode", "magnolia"],
+      badges: ["Infrastructure as code (IaC)", "Kanban", "AWS EKS", "Terraform", "Kubernetes", "DevOps"],
       contents: `
 * Technische Verantwortung und Betrieb der Unternehmenswebsite sowie des zugrunde liegenden Content Management Systems Magnolia als Mitglied des neu gegründeten CMS Platform Teams im Bereich Digitalisierung und Systeme
 * Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3 und Freemarker 
@@ -74,10 +76,11 @@ education: [
       org: "Hochschule Darmstadt",
       datespan: "Oktober 2018 - April 2023",
       contents: `
-* Note: 1,7
+* Bachelorzeugnis Note: 1,7
 
-* Dissertation: "Automatische Skalierung in Kubernetes unter AWS-EKS – Vergleich von automatischen Skalierungsmethoden", 
 * Bachelormodul Note: 1.2
+* Dissertation: "Automatische Skalierung in Kubernetes unter AWS-EKS – Vergleich von automatischen Skalierungsmethoden", 
+ 
 `,
     },
     {
@@ -93,7 +96,7 @@ education: [
       header: "Sprachkenntnisse",
       contents: `
 * Deutsch (C2)
-* Englisch (B2-C1) 
+* Englisch (B2) 
 `,
     },
 
