@@ -55,10 +55,10 @@ module.exports = {
       badges: ["IaC", "CI/CD", "Kubernetes", "AWS", "Terraform", "Automatisierung", "Monitoring"],
       contents: `
 * Entwurf und Implementierung einer Cloud-Infrastruktur in AWS EKS zur Untersuchung der automatischen Skalierungsmethoden
-* Entwicklung eines SpringBoot RESTful Services, Nutzung von Kubernetes-Skalierung (HPA, VPA, CA) zu dessen automatischen Skalierung 
+* Entwicklung eines SpringBoot RESTful Services 
 * Monitoring und Visualisierung mit Prometheus und Grafana
 * Automatisierte Bereitstellung des EKS-Clusters durch Terraform, GitLab CI/CD
-* Dynamische Pod- und Node-Skalierung von AWS EC2-Instanzen und deren Ressourcen
+* Nutzung von Kubernetes-Skalierung (HPA, VPA, CA) zur dynamischen Pod- und Node-Skalierung von AWS EC2-Instanzen und -Ressourcen
 * Anwendung von DevOps-Prinzipien für rasche Bereitstellung, kontinuierliche Optimierung und höhere Qualität
       `,
     },
@@ -67,10 +67,10 @@ title: "Cloud-Entwickler, Praktikum",
       company: "AUSY Technologies Germany AG, Frankfurt am Main",
       datespan: "April 2022 bis Juli 2022",
       badges: ["Infrastructure as code (IaC)", "Kanban", "AWS EKS", "Terraform", "Kubernetes", "DevOps"],
-      contents: `
-* Praktikum über drei Monate in 
+      contents: ` 
 * Einblicke in größere Projekte namhafter Kunden in der Transport- und Logistikbranche 
-* Entwicklung eines IaaS-Produktes unter Verwendung von u.a. AWS EKS, Terraform, GitLab CI/CD, Kubernetes
+* Entwicklung eines IaaS-Produktes unter Verwendung von u.a. Kubernetes & AWS EKS 
+* IaC und Automatisierung mithilfe von u.a. Terraform & GitLab CI/CD 
 * Nutzung von agilen Entwicklungsmethoden (Kanban, SCRUM), Pair-Programming, DevOps-Prinzipien 
 
       `,
