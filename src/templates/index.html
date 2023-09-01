@@ -12,7 +12,7 @@
 <body>
 <div class="container page">
     <div class="row">
-        <div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
+        <div class="col-print-6 col-12 col-md-7 col-lg-5 d-flex justify-content-between flex-column">
             <h1><b>{{ name }}</b><br/>{{ title }}</h1>
             <p>
                 <time datetime="{{ buildinfo.date }}" class="text-muted screen">Letztes Update: {{ updated }}</time>
@@ -23,13 +23,13 @@
                     class="fa fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
             </p>
         </div>
-        <div class="col-4 col-md-2 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
+        <div class="col-4 col-md-5 col-lg-3 d-none d-md-block align-md-self-center text-center">
             <img src="photo.jpg" class="img-fluid" alt="Personal photo">
         </div>
-        <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
+        <div class="col-print-6 col-12 col-md-7 col-lg-4">
             <dl class="row">
                 {{#each facts}}
-                <dt class="col-md-5"><i class="fa fa-{{ icon }}" aria-hidden="true" style="font-size: 1em;" ></i>&nbsp;{{ @key }}</dt>
+                <dt class="col-md-5"><i class="fa fa-{{ icon }}" aria-hidden="true" style="font-size: 0.9em;" ></i>&nbsp;{{ @key }}</dt>
                 <dd class="col-md-7">{{{ text }}}</dd>
                 {{/each}}
             </dl>

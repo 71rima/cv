@@ -18,6 +18,14 @@ module.exports = {
       icon: "envelope",
       text: '<a href="mailto:amir@el-shennawy.de">amir@el-shennawy.de</a>',
     },
+    "Github": {
+      icon: "github",
+      text: '<a href="https://github.com/71rima">71rima</a>',
+    },
+    "GitLab": {
+      icon: "gitlab",
+      text: '<a href="https://gitlab.com/71rima">71rima</a>',
+    },
   },
   techskills: [
     ["Terraform", "++"],
@@ -55,16 +63,16 @@ module.exports = {
       `,
     },
     {
-title: "Anwendungsentwickler, Cloud-Entwickler",
+title: "Cloud-Entwickler, Praktikum",
       company: "AUSY Technologies Germany AG, Frankfurt am Main",
       datespan: "April 2022 bis Juli 2022",
       badges: ["Infrastructure as code (IaC)", "Kanban", "AWS EKS", "Terraform", "Kubernetes", "DevOps"],
       contents: `
-* Technische Verantwortung und Betrieb der Unternehmenswebsite sowie des zugrunde liegenden Content Management Systems Magnolia als Mitglied des neu gegründeten CMS Platform Teams im Bereich Digitalisierung und Systeme
-* Weiterentwicklung des Magnolia Frontends mittels HTML5, Javascript, CSS3 und Freemarker 
-* Mitglied der A11Y Taskforce, welche die Verbesserung der Barrierefreiheit von Portalen und der Unternehmenswebsite sowie die Festlegung von A11Y Standards für das Unternehmen zum Ziel hatte
-* Beratung bei der Auswahl von Bewerbern
-* Durchführung von Bewerbungsgesprächen und Coding Interviews
+* Praktikum über drei Monate in 
+* Einblicke in größere Projekte namhafter Kunden in der Transport- und Logistikbranche 
+* Entwicklung eines IaaS-Produktes unter Verwendung von u.a. AWS EKS, Terraform, GitLab CI/CD, Kubernetes
+* Nutzung von agilen Entwicklungsmethoden (Kanban, SCRUM), Pair-Programming, DevOps-Prinzipien 
+
       `,
     },
   
@@ -72,7 +80,7 @@ title: "Anwendungsentwickler, Cloud-Entwickler",
 
 education: [
     {
-      title: "Bachelor of Science Informatik",
+      title: "B. Sc. Informatik",
       org: "Hochschule Darmstadt",
       datespan: "Oktober 2018 - April 2023",
       contents: `
@@ -96,7 +104,7 @@ education: [
       header: "Sprachkenntnisse",
       contents: `
 * Deutsch (C2)
-* Englisch (B2) 
+* Englisch (B2-C1) 
 `,
     },
 
