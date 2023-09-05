@@ -69,8 +69,9 @@ title: "Cloud-Entwickler, Praktikum",
       badges: ["Infrastructure as code (IaC)", "Kanban", "AWS EKS", "Terraform", "Kubernetes", "DevOps"],
       contents: ` 
 * Einblicke in größere Projekte namhafter Kunden in der Transport- und Logistikbranche 
-* Entwicklung eines IaaS-Produktes unter Verwendung von u.a. Kubernetes & AWS EKS 
+* (Weiter-)Entwicklung eines IaaS-Produktprototypen unter Verwendung von u.a. Kubernetes & AWS EKS 
 * IaC und Automatisierung mithilfe von u.a. Terraform & GitLab CI/CD 
+* Erstellung technischer Dokumentationen und Reporting des Projektfortschritts an den Teamleiter
 * Nutzung von agilen Entwicklungsmethoden (Kanban, SCRUM), Pair-Programming, DevOps-Prinzipien 
 
       `,
@@ -87,7 +88,7 @@ education: [
 * Bachelorzeugnis Note: 1,7
 
 * Bachelormodul Note: 1.2
-* Dissertation: "Automatische Skalierung in Kubernetes unter AWS-EKS – Vergleich von automatischen Skalierungsmethoden", 
+* Dissertation: "Automatische Skalierung in Kubernetes unter AWS-EKS – Vergleich von automatischen Skalierungsmethoden" 
  
 `,
     },
