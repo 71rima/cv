@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Amir El-Shennawy',
-  title: 'Junior Cloud-Entwickler',
+  title: 'Junior Cloud-Entwickler/Consultant',
   facts: {
     "Ak. Grad": {
       icon: "graduation-cap",
@@ -34,9 +34,10 @@ module.exports = {
     ["Grafana", "++"],
     ["AWS", "++"],
     ["Git", "+++"],
-    ["CI/DevOps", "++"],
+    ["SQL", "++"],
     ["C++", "+++"],
-    ["CI/DevOps", "++"],
+    ["CI/CD", "++"],
+
     ["JavaScript", "+"],
   ],
   methodskills: [
@@ -44,6 +45,7 @@ module.exports = {
     ["Kanban", "+"],
     ["Clean Code", "++"],
     ["TDD", "+"],
+    ["DevOps", "++"],
   ],
 
 
@@ -59,6 +61,7 @@ module.exports = {
 * Monitoring und Visualisierung mit Prometheus und Grafana
 * Automatisierte Bereitstellung des EKS-Clusters durch Terraform, GitLab CI/CD
 * Nutzung von Kubernetes-Skalierung (HPA, VPA, CA) zur dynamischen Pod- und Node-Skalierung von AWS EC2-Instanzen und -Ressourcen
+* eigenständige Auswahl des Technologiestacks (inkl. AWS-Services und -Ressourcen) unter Berücksichtigung der Anforderungen
 * Anwendung von DevOps-Prinzipien für rasche Bereitstellung, kontinuierliche Optimierung und höhere Qualität
       `,
     },

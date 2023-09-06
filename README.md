@@ -1,7 +1,3 @@
-# The Curriculum Vitae Template
-
-You are a fantastic developer. Keep your CV on GitHub. Host it on GitHub Pages. Have both HTML and PDF versions automatically generated and consistent.
-
 ## What does this project do?
 
 * Helps you to manage your CV as a web app (HTML + CSS + JS).
